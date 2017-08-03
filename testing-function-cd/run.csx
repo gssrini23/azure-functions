@@ -1,6 +1,6 @@
 using System;
 
-public static void Run()
+public static void Run(TraceWriter log2)
 {
-    log.Info($"hello world!");
+    log2.Info($"hello world!");
 }
