@@ -1,6 +1,6 @@
 using System;
 
-public static void Run(TraceWriter log2)
+public static void Run(TimerInfo myTimer, TraceWriter log)
 {
-    log2.Info($"hello world!");
+    log.Info($"C# Timer trigger function executed at: {DateTime.Now}");
 }
